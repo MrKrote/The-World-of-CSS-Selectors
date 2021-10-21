@@ -274,33 +274,39 @@ It is a measure of how specific a given selector is. The more specific selector 
 
 >> ID > CLASS > ELEMENT
 
-Pl.: 
+**Pl.:** 
 
-1 element selector [0>0>1]
-
+**1 element selector [0>0>1]**
+```
 p{
     color: yellow;
 }
+```
 vs
 
-2 element selector [0>0>2] - WIN
-
+**2 element selector [0>0>2] - WIN**
+```
 section p {
     color: puprle;
 }
+```
 
+**PL.:**
 
-PL.:
-
-1 ID Selector - WIN
-
+**1 ID Selector - WIN**
+```
 #submit {
     color: olvie;
 }
+```
 vs
 
-1 Class 2 Element Selector
-
+**1 Class 2 Element Selector**
+```
 nav a .active {
     color: orange;
 }
+```
+
+&nbsp;
+
