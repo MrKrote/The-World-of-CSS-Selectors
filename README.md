@@ -314,7 +314,7 @@ nav a .active {
 > 
 > Inline Styles - ```style=" "```
 
-it is more specific than IDs and classes and elements - Inline Styles > ID > Classes > Elements
+it is more specific than IDs and classes and elements - **Inline Styles > ID > Classes > Elements**
 
 **.html**
 ```
@@ -325,7 +325,7 @@ it is more specific than IDs and classes and elements - Inline Styles > ID > Cla
 
 > Specificity
 > 
-> Important declaration - !important
+> Important declaration - ```!important```
 
 it'll just ignore specifity and just make something win automatically
 
