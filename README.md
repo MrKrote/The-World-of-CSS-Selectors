@@ -216,3 +216,50 @@ input[type="password"]{
     background-color: #dfe8dc ;
 }
 ```
+
+&nbsp;
+
+> Pseudo Elements: ::
+>
+
+Keyword added to a selector that lets you style a particular part of selected element(s)
+
+```::after```
+
+```::before```
+
+```::first-letter```
+
+```::first-line```
+
+```::selection```
+
+**Pl.:**
+
+Make the first line of the paragraph puprle
+```
+p::first-line{
+    color: purple;
+}
+```
+
+**Pl.:**
+
+Make the background color yellow , when its selected
+```
+p::selection{
+    background-color: yellow;
+}
+```
+
+**Pl.:**
+
+Make the first letter of the h2 bigger
+```
+h2::first-letter{
+    font-size: 45px;
+}
+```
+
+&nbsp;
+
