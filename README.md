@@ -48,15 +48,15 @@ h1,h2 {
 >
 
 You add an ID to the markup and then you reference it using the name of the ID and the # sign.
-```
-.html
-```
+
+**.html
+
 ```
 <button id="signup">Sign Up</button>
 ```
-```
-.css
-```
+
+**.css
+
 ```
 #signup {
     background-color: #1d3557;
