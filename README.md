@@ -16,14 +16,14 @@
 > Element Selector: - this selects everything of a given type
 >
 
-Pl:
+**Pl:**
 ```
 button {
     font-size: 30px;
 }
 ```
 
-Pl:
+**Pl:**
 ```
 img {
     width: 100px;
