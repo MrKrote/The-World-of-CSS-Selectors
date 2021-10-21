@@ -142,6 +142,8 @@ h2 + button{
 }
 ```
 
+&nbsp;
+
 > Direct Child Selector >
 >
 
@@ -151,3 +153,27 @@ footer > a {
     color: #a8dadc
 }
 ```
+
+&nbsp;
+
+> Attribute Selector
+>
+
+- Select all input elements where the type attribute is set to "password"
+
+**.html**
+``````
+<input type="text" placeholder="Search">
+<input type="password" placeholder="password">  <!-- just here changed the color >
+```
+
+**.css**
+
+```
+input[type="password"]{
+    color: red;
+}
+```
+
+&nbsp;
+
