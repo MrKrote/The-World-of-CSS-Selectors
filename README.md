@@ -11,7 +11,7 @@
 }
 ```
 
-
+&nbsp;
 
 > Element Selector: - this selects everything of a given type
 >
@@ -31,7 +31,7 @@ img {
 }
 ```
 
-
+&nbsp;
 
 > Selector list:  - select all h1's and h2's elements
 >
