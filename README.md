@@ -87,3 +87,48 @@ You add an ID to the markups and then you reference it using the name of the ID 
     font-size: 12px;
 }
 ```
+
+&nbsp;
+
+> Descendant Selector
+>
+
+Select all ```<a>```'s that are nested inside an ```<li>```
+
+**.html**
+```
+<section>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+    </ul>
+</section>
+```
+**.css**
+```
+li a {
+    color: teal;
+}
+```
+
+OR can combinate with the **Class Selector**
+
+
+
+**.html**
+```
+<section class="post">
+    <h2>This Corgi got some good stuff from the vet.<span class="tag">dogs</span></h2>
+    <button>+Vote</button>
+</section>
+```
+
+**.css**
+```
+.post h2{
+    color:#457b9d;
+}
+```
+
+&nbsp;
+
