@@ -310,3 +310,26 @@ nav a .active {
 
 &nbsp;
 
+> Specificity
+> Inline Styles - ```style=" "```
+
+it is more specific than IDs and classes and elements - Inline Styles > ID > Classes > Elements
+
+**.html**
+```
+<button id="signup" style="color: red">Sign Up</button>
+```
+
+&nbsp;
+
+> Specificity
+> Important declaration - !important
+
+it'll just ignore specifity and just make something win automatically
+
+**.css**
+```
+button {
+    background-color: magenta !important;
+}
+```
