@@ -132,3 +132,22 @@ OR can combinate with the **Class Selector**
 
 &nbsp;
 
+> Adjacent Selector: +
+>
+
+- Select only the buttons that are immediately preceded by an ```<h2>```
+```
+h2 + button{
+    font-size: 20px;
+}
+```
+
+> Direct Child Selector >
+>
+
+- Select only the anchor tag that are direkt children of the footer element
+```
+footer > a {
+    color: #a8dadc
+}
+```
