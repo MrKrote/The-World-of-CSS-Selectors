@@ -162,9 +162,9 @@ footer > a {
 - Select all input elements where the type attribute is set to "password"
 
 **.html**
-``````
+```
 <input type="text" placeholder="Search">
-<input type="password" placeholder="password">  <!-- just here changed the color >
+<input type="password" placeholder="password">  <!-- just here changed the color>
 ```
 
 **.css**
@@ -177,3 +177,42 @@ input[type="password"]{
 
 &nbsp;
 
+> Pseido Classes
+>
+
+```:hover```
+
+- hover over a button inside of a post (class="post")
+```
+.post button:hover
+{
+    background-color: #e63946;
+    color: #f1faee;
+}
+```
+
+```:active```
+
+- active,when click on a button
+```
+.post button:active{
+    background-color: #02c39a;
+}
+```
+
+```:checked```
+
+- when,its checked (radiobutton,checkbox) than change the color etc..
+
+
+
+```:nth-of-type```
+
+- when, i wanted to make every 2. or every 5. then using this
+
+**Pl:**
+```
+.post:nth-of-type(3n) {
+    background-color: #dfe8dc ;
+}
+```
