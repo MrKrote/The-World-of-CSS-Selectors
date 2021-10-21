@@ -272,7 +272,7 @@ It is a measure of how specific a given selector is. The more specific selector 
 
 
 
->> ID > CLASS > ELEMENT
+<h2> >> ID > CLASS > ELEMENT </h2>
 
 **Pl.:** 
 
