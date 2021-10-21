@@ -47,7 +47,7 @@ h1,h2 {
 > The ID Selector - just for one
 >
 
-You add an ID to the markup and then you reference it using the name of the ID and the # sign.
+You add an ID to the markup and then you reference it using the name of the ID and the ```#``` sign.
 
 **.html**
 
@@ -68,7 +68,7 @@ You add an ID to the markup and then you reference it using the name of the ID a
 
 > The Class Selector - for multiple
 >
-You add an ID to the markups and then you reference it using the name of the ID and the . sign.
+You add an ID to the markups and then you reference it using the name of the ID and the ```.``` sign.
 
 **.html**
 
